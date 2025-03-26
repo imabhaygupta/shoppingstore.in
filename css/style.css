@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+</style>:root {
+    --main-bg-color: #071b42;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2e6dec;
+    font-family: "Lora", serif;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.logo img {
+    width: 206px;
+    padding: 0px 25px;
+}
+
+
+nav ul {
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.search input {
+    display: flex;
+    height: 35px;
+    width: 490px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 40px;
+
+}
+
+.login input {
+    display: flex;
+    color: blue;
+    height: 30px;
+    width: 105px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.seller {
+    margin-left: 35px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.more {
+    margin-left: 50px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cart img {
+    position: relative;
+    top: 3px;
+}
+
+.cart {
+    margin-left: 45px;
+    color: white;
+}
+
+.bar img {
+    position: relative;
+    top: 3px;
+    right: 32px;
+    cursor: pointer;
+
+}
+
+nav ul li a:hover {
+
+    text-decoration: none;
+    color: rgb(245, 245, 246);
+    font-weight: bold;
+
+
+}
+
+.container {
+    min-height: calc(200vh - 58px - 12vh);
+}
+
+.slider img {
+    display: flex;
+    margin: 8px auto;
+    width: 75vw;
+    height: 330px;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 95vw;
+    margin: auto;
+
+}
+
+.card2 {
+    max-width: 95vw;
+    margin: auto;
+    margin-top: 115px;
+}
+
+.card3 {
+    max-width: 95vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-item {
+    display: inline-flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    margin: 0px 27px;
+}
+
+.card-item img {
+    margin: 8px auto;
+}
+
+.card h4 {
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+
+footer {
+    height: 12vh;
+    background-color: #2e6dec;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lora", serif;
+
+}
